@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites | Modern Restaurant</title>
+    <meta name="description" content="Experience the finest dining with our delicious cuisine and warm ambiance.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo"><img src="assets/images/logo.png" alt="Shree Lala Bhai Restaurant" /></a>
+            <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger"></span>
+               
+            </button>
+            <nav id="main-nav" class="main-nav" role="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-slideshow">
+                <div class="slide active" style="background-image: url('assets/images/slider1.jpg');"></div>
+                <div class="slide" style="background-image: url('assets/images/slider2.jpg');"></div>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1>Welcome to<br><span>Shree Lala Bhai</span></h1>
+                <p class="lead">Experience authentic flavors and warm hospitality at its finest.</p>
+                <div class="hero-ctas">
+                   <a class="btn btn-ghost" href="menu.html">See Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section about hero-about">
+            <div class="container">
+                <div class="about-hero-content">
+                    <div class="about-hero-images">
+                        <div class="about-hero-image">
+                            <img src="assets/images/about.jpg" alt="Shree Lala Bhai Restaurant" loading="lazy">
+                            <div class="image-overlay">
+                                <h3>Our Restaurant</h3>
+                                <p>Experience authentic flavors</p>
+                            </div>
+                        </div>
+                        <div class="about-hero-image">
+                            <img src="assets/images/100Yyears.jpg" alt="100 Years Legacy" loading="lazy">
+                            <div class="image-overlay">
+                                <h3>100 Years Legacy</h3>
+                                <p>Tradition of excellence</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-hero-text">
+                        <h2>About <span>Shree Lala Bhai</span></h2>
+                        <p class="about-subtitle">A Legacy of Authentic Indian Flavors</p>
+                        <div class="about-content">
+                            <p>Welcome to Shree Lala Bhai, where tradition meets taste in every bite. Established with a passion for authentic Indian cuisine, we bring you the rich culinary heritage of India right to your table.</p>
+                            <p>Our journey began with a simple mission: to serve food that reminds you of home, prepared with the same love and care as our grandmothers used to make. Every dish at Shree Lala Bhai tells a story of tradition, culture, and culinary excellence.</p>
+                        </div>
+                        <div class="about-cta">
+                            <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section id="why-choose-us" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose <span>Us</span></h2>
+                    <p class="section-subtitle">Experience the best of Indian cuisine with our authentic flavors and warm hospitality</p>
+                </div>
+                
+                <div class="features-simple">
+                    <div class="feature-item">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Authentic Taste</h3>
+                        <p>Traditional recipes passed down through generations, prepared with genuine Indian spices and cooking techniques.</p>
+                        <div class="feature-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Since 1990</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-award"></i>
+                                <span>Award Winning</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item highlight">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Fresh Ingredients</h3>
+                        <p>We source only the freshest, locally-sourced ingredients to ensure every dish is packed with flavor and nutrition.</p>
+                        <div class="feature-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-truck"></i>
+                                <span>Daily Fresh</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Quality Assured</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Made with Love</h3>
+                        <p>Every dish is prepared with the same care and attention to detail that we would give to our own family.</p>
+                        <div class="feature-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-users"></i>
+                                <span>Family Recipe</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-star"></i>
+                                <span>5-Star Service</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Selection -->
+        <section id="special-selection" class="section special-selection">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our <span>Special</span> Selection</h2>
+                    <p class="section-subtitle">Refreshing Beverages to Quench Your Thirst</p>
+                </div>
+                <div class="beverages-grid">
+                    <div class="beverage-card">
+                        <div class="beverage-img" style="background-image: url('assets/images/sodashikanji.jpg');">
+                            <span class="beverage-tag">Bestseller</span>
+                        </div>
+                        <div class="beverage-info">
+                            <h3>Soda Shikanji</h3>
+                            <p>Our signature lemon soda with a blend of Indian spices and herbs</p>
+                                                    </div>
+                    </div>
+                    
+                    <div class="beverage-card">
+                        <div class="beverage-img" style="background-image: url('assets/images/punjabijeera.jpg');">
+                            <span class="beverage-tag">New</span>
+                        </div>
+                        <div class="beverage-info">
+                            <h3>Albela Lemon</h3>
+                            <p>Freshly squeezed lemonade with a secret mix of flavors</p>
+                                                    </div>
+                    </div>
+                    
+                    <div class="beverage-card">
+                        <div class="beverage-img" style="background-image: url('assets/images/tea.jpg');">
+                            <span class="beverage-tag">Popular</span>
+                        </div>
+                        <div class="beverage-info">
+                            <h3>Amruttulya Tea</h3>
+                            <p>Traditional Indian tea with perfect blend of spices and milk</p>
+                                                    </div>
+                    </div>
+                    
+                    <div class="beverage-card">
+                        <div class="beverage-img" style="background-image: url('assets/images/kessarlassi.jpg');">
+                            <span class="beverage-tag">Special</span>
+                        </div>
+                        <div class="beverage-info">
+                            <h3>Milkyway Coffee</h3>
+                            <p>Creamy coffee with a rich aroma and perfect froth</p>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="golden-memories" class="section gallery">
+    <div class="container">
+        <div class="section-header">
+            <h2>Golden <span>Memories</span></h2>
+            <p class="section-subtitle">Captured Moments of Joy and Flavor</p>
+        </div>
+        <div class="memories-custom-layout">
+  <div class="memories-row-top">
+    <div class="memory-large">
+      <img src="assets/images/memories/mem1.jpg" alt="Memory 1">
+    </div>
+    <div class="memory-vertical-group">
+  <div class="memory-row">
+    <div class="memory-small"><img src="assets/images/memories/mem2.jpg" alt="Memory 2"></div>
+    <div class="memory-small"><img src="assets/images/memories/mem3.jpg" alt="Memory 3"></div>
+  </div>
+  <div class="memory-row">
+    <div class="memory-small"><img src="assets/images/memories/mem4.jpg" alt="Memory 4"></div>
+    <div class="memory-small"><img src="assets/images/memories/mem5.jpg" alt="Memory 5"></div>
+  </div>
+</div>
+  </div>
+  <div class="memories-row-bottom">
+    <div class="memory-wide"><img src="assets/images/memories/mem6.jpg" alt="Memory 6"></div>
+    <div class="memory-wide"><img src="assets/images/memories/mem7.jpg" alt="Memory 7"></div>
+  </div>
+</div>
+    </div>
+</section>
+
+        <!-- Testimonials Section -->
+<section id="testimonials" class="section about-testimonials">
+  <div class="container">
+    <div class="section-header">
+      <h2>What Our <span>Customers</span> Say</h2>
+      <p class="section-subtitle">Hear from our valued customers about their experience</p>
+    </div>
+    <div class="swiper testimonial-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide feedback-box"><img src="assets/images/feedback1.jpg" alt="Feedback 1"></div>
+        <div class="swiper-slide feedback-box"><img src="assets/images/feedback2.jpg" alt="Feedback 2"></div>
+        <div class="swiper-slide feedback-box"><img src="assets/images/feedback3.jpg" alt="Feedback 3"></div>
+        <div class="swiper-slide feedback-box"><img src="assets/images/feedback4.jpg" alt="Feedback 4"></div>
+        <div class="swiper-slide feedback-box"><img src="assets/images/feedback5.jpg" alt="Feedback 5"></div>
+        <div class="swiper-slide feedback-box"><img src="assets/images/feedback6.jpg" alt="Feedback 6"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- Video Slideshow Section -->
+        <section id="video-slideshow" class="section video-slideshow">
+          <div class="container">
+            <div class="section-header">
+              <h2>Watch Us <span>Online</span></h2>
+              <p class="section-subtitle">Catch our latest moments, recipes, and events!</p>
+            </div>
+            <div class="video-grid">
+              <div class="video-box">
+                <div class="video-wrapper">
+                  <iframe src="https://www.youtube.com/embed/eNpXt1hJzVs" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="video-box">
+                <div class="video-wrapper">
+                  <iframe src="https://www.youtube.com/embed/DxvSutsaj0w" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+              <div class="video-box">
+                <div class="video-wrapper">
+                  <iframe src="https://www.youtube.com/embed/mFGOB9cKkX8" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="social-icons-bar">
+              <a href="https://www.instagram.com/shreelalabhai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><circle cx="12" cy="12" r="5.5" stroke="#fff" stroke-width="2"/><rect x="2" y="2" width="20" height="20" rx="6" stroke="#fff" stroke-width="2"/><circle cx="18" cy="6" r="1" fill="#fff"/></svg>
+              </a>
+              <a href="https://www.facebook.com/share/1A2BhRNm2f/?mibextid=wwXIfr" target="_blank" class="social-icon facebook" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="#fff" stroke-width="2"/><path d="M16 12h-2v8h-3v-8H9v-3h2V8.5A3.5 3.5 0 0 1 14.5 5H17v3h-2.5A.5.5 0 0 0 14 8.5V9h3v3z" fill="#fff"/></svg>
+              </a>
+              <a href="https://youtube.com/@shreelalabhai?si=fdngzAU5qMlqy-Xn" target="_blank" class="social-icon youtube" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="#fff" stroke-width="2"/><path d="M10 9.5v5l4-2.5-4-2.5z" fill="#fff"/></svg>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="share-experience" class="section contact">
+            <div class="container">
+                <h2 class="centered-heading">Share your experience with us!</h2>
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                        <div class="error-message" id="name-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                        <div class="error-message" id="email-error"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone (optional)">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder="Tell us about your experience..."></textarea>
+                        <div class="error-message" id="message-error"></div>
+                    </div>
+                    <div class="form-group rating-group">
+                        <label>Your Rating:</label>
+                        <div class="star-rating">
+                            <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+                            <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                            <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                            <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                            <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+                <div id="form-success" class="form-success" hidden>
+                    <p>Thank you for your message! We'll get back to you soon.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <!-- Footer -->
+    <footer class="site-footer">
+    <div class="container footer-grid">
+        <div class="footer-about">
+            <h3>Shree Lala Bhai</h3>
+            <p>Authentic Indian Taste Since 1911</p>
+        </div>
+        <nav class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#share-experience">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="footer-contact">
+            <h4>Opening Hours</h4>
+            <p>Monday - Sunday: 10am - 10:30pm</p>
+            <h4>Contact Us</h4>
+            <address>
+                <p>Near Madar gate Police Choki,<br>Nala Bazaar Road,<br>Ajmer 305001</p>
+                <p>Phone: +91 98291 72632 / 90248 64907<br>Email: <a href="mailto:Shreelalabhai@gmail.com">Shreelalabhai@gmail.com</a></p>
+            </address>
+            <div class="social-links">
+    <a href="https://www.instagram.com/shreelalabhai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram" target="_blank">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><circle cx="12" cy="12" r="5.5" stroke="#fff" stroke-width="2"/><rect x="2" y="2" width="20" height="20" rx="6" stroke="#fff" stroke-width="2"/><circle cx="18" cy="6" r="1" fill="#fff"/></svg>
+    </a>
+    <a href="https://youtube.com/@shreelalabhai?si=fdngzAU5qMlqy-Xn" aria-label="YouTube" target="_blank">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="#fff" stroke-width="2"/><path d="M10 9.5v5l4-2.5-4-2.5z" fill="#fff"/></svg>
+    </a>
+    <a href="https://www.facebook.com/share/1A2BhRNm2f/?mibextid=wwXIfr" aria-label="Facebook" target="_blank">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><rect x="2" y="2" width="20" height="20" rx="6" stroke="#fff" stroke-width="2"/><path d="M16 12h-2v8h-3v-8H9v-3h2V8.5A3.5 3.5 0 0 1 14.5 5H17v3h-2.5A.5.5 0 0 0 14 8.5V9h3v3z" fill="#fff"/></svg>
+    </a>
+</div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2025 Shree Lala Bhai. All rights reserved By THECODECREATER </p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
